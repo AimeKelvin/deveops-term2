@@ -6,6 +6,6 @@ app.use(express.json());
 
 app.use(studentRoutes);
 
-app.listen(5000, () => {
-  console.log("Student server running on port 5000");
+app.listen(9090, () => {
+  console.log("Student server running on port 9090");
 });
