@@ -1,6 +1,5 @@
 import Item from "../models/Item.js";
 
-// CREATE
 export const createItem = async (req, res) => {
   try {
     const item = await Item.create(req.body);
@@ -10,7 +9,7 @@ export const createItem = async (req, res) => {
   }
 };
 
-// READ ALL
+
 export const getItems = async (req, res) => {
   try {
     const items = await Item.find();
